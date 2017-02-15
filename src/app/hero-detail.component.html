@@ -1,0 +1,13 @@
+<div *ngIf="hero">
+  <h2>{{hero.name}} a Giant hero!</h2>
+  <div>
+    <label>Name:</label> {{hero.name}}
+    
+  <div>
+    <label>#: </label>{{hero.id}}</div>
+    
+    <div><label>History:</label><br>{{hero.bio}}</div>
+  </div>
+  <button (click)="goBack()">Back</button>
+</div>
+
